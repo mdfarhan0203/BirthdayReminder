@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #E11299;
+  height: 100%;
+  width: 100%;
+  line-height: 1.4rem;
+}
+
+h1{
+  color: black;
+  margin: 1rem 0;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+/* main */
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* container */
+.container{
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  background-color: #ECF9FF;
+  padding: 1rem;
+  border-radius: 10px;
+
+}
+
+/* article */
+.article{
+  position: absolute;
+  display: inline-block;
+  padding-top: 2rem;
+}
+
+.name{
+  font: 35px;
+  font-weight: 600;
+}
+.age{
+  color: #8d8a6c;
+}
+/* image */
+img{
+  border-radius: 100%;
+  height:5rem;
+  width: 5rem;
+  object-fit: cover;
+  margin-right: 1rem;
+  /* margin-bottom: 1rem; */
+}
+
+
+
+/* button */
+.button{ 
+  height: 2.4rem;
+  width: 98%;
+  background-color: #E11299;
+  color: white;
+  font-size: 25px;
+  font-weight: 400;
+  border-radius: 5px;
+  text-align: center;
+  border: none;
+  margin-top: 1rem;
+} 
