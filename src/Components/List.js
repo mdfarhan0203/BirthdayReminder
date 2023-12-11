@@ -8,7 +8,6 @@ const List = (props) => {
                 {props.person.map((person) => {
                     return(
                         <li type='none'>
-                        {console.log(person.name)}
                         <img src={person.image} />
                         <div className="article">
                             <p className="name">{person.name}</p>
